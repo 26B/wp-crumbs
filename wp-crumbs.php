@@ -44,7 +44,6 @@ if ( file_exists( WP_CRUMBS_PATH . 'vendor/autoload.php' ) ) {
 }
 
 // Include files.
-require_once WP_CRUMBS_INC . '/utility.php';
 require_once WP_CRUMBS_INC . '/core.php';
 
 // Activation/Deactivation.
