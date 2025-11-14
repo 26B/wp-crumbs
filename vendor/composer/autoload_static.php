@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitff70db1a06f8a1a414884923cb7a584c
+class ComposerStaticInitc53e3ffeafeef5e994430c9b6702615f
 {
     public static $files = array (
         '9d2b9fc6db0f153a0a149fefb182415e' => __DIR__ . '/..' . '/symfony/polyfill-php84/bootstrap.php',
@@ -665,6 +665,8 @@ class ComposerStaticInitff70db1a06f8a1a414884923cb7a584c
         'TSB\\WP\\Plugin\\Crumbs\\MenuCrumbs' => __DIR__ . '/../..' . '/includes/classes/MenuCrumbs.php',
         'TenupFramework\\Assets\\GetAssetInfo' => __DIR__ . '/..' . '/26b/wp-framework/src/Assets/GetAssetInfo.php',
         'TenupFramework\\Facades\\WordPress' => __DIR__ . '/..' . '/26b/wp-framework/src/Facades/WordPress.php',
+        'TenupFramework\\Filters\\QueryFilters' => __DIR__ . '/..' . '/26b/wp-framework/src/Filters/QueryFilters.php',
+        'TenupFramework\\Filters\\RunOnce' => __DIR__ . '/..' . '/26b/wp-framework/src/Filters/RunOnce.php',
         'TenupFramework\\Module' => __DIR__ . '/..' . '/26b/wp-framework/src/Module.php',
         'TenupFramework\\ModuleInitialization' => __DIR__ . '/..' . '/26b/wp-framework/src/ModuleInitialization.php',
         'TenupFramework\\ModuleInterface' => __DIR__ . '/..' . '/26b/wp-framework/src/ModuleInterface.php',
@@ -676,9 +678,9 @@ class ComposerStaticInitff70db1a06f8a1a414884923cb7a584c
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitff70db1a06f8a1a414884923cb7a584c::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitff70db1a06f8a1a414884923cb7a584c::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitff70db1a06f8a1a414884923cb7a584c::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc53e3ffeafeef5e994430c9b6702615f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc53e3ffeafeef5e994430c9b6702615f::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitc53e3ffeafeef5e994430c9b6702615f::$classMap;
 
         }, null, ClassLoader::class);
     }

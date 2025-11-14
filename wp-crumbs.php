@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       wp-crumbs
  * Description:
- * Version:           0.0.1
+ * Version:           0.0.2
  * Author:            26B - IT Consulting
  * Author URI:        https://26b.io/
  * License:           GPL v3
@@ -26,7 +26,7 @@
  */
 
 // Useful global constants.
-define( 'WP_CRUMBS_VERSION', '0.0.1' );
+define( 'WP_CRUMBS_VERSION', '0.0.2' );
 define( 'WP_CRUMBS_URL', plugin_dir_url( __FILE__ ) );
 define( 'WP_CRUMBS_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WP_CRUMBS_INC', WP_CRUMBS_PATH . 'includes/' );
