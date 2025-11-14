@@ -3,7 +3,7 @@
         'name' => '26b/wp-crumbs',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'cf58f20c7c46ff85a1709fff8e7bfb7376b0820d',
+        'reference' => 'ae6ebe7757b5577cfdacd716df92c6e6c537f1e1',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         '26b/wp-crumbs' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'cf58f20c7c46ff85a1709fff8e7bfb7376b0820d',
+            'reference' => 'ae6ebe7757b5577cfdacd716df92c6e6c537f1e1',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
